@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [[ `hostname` =~ ^sb-.* ]]; 
+if [[ `hostname` =~ ^sws-tcserver-.* ]]; 
 then 
     export FACTER_gbb_role="serverbrowser"
 elif [[ `hostname` =~ ^rb-.* ]]; 
